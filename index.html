@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-візитка</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Навігаційна панель -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Візитка</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">ебаут мі</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">циферки</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Головний розділ -->
+<header class="bg-light text-primary text-center py-5">
+    <div class="container">
+        <h1>Вітаю на Сайті-візитці</h1>
+    </div>
+</header>
+
+<!-- Про мене -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Про мене</h2>
+        <p class="text-center">Аріон Артьом</p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="photo_5422747007405120090_m.jpg"Фото" class="img-fluid rounded-circle" height="500" width="500">
+            </div>
+            <div class="col-md-6">
+                <p>Зараз навчаюсь в Хмельницькому Національному Університеті, де вивчаю 123 спеціальність комп'ютерна інженерія. Одним із найулюбленіших напрямків мого навчання є веб-технологій. Вона для мене — справжній виклик і водночас захоплююча подорож.
+                    Мені подобається створювати щось нове, що може бути корисним для інших людей. Веб-розробка — це не просто написання коду, а й мистецтво, де кожен елемент має своє місце і значення. Я обожнюю той момент, коли бачу результат своєї роботи — гарно оформлений, функціональний сайт, який задовольняє потреби користувачів.
+                    У вільний час я активно займаюсь самоосвітою. Завжди шукаю нові матеріали, щоб покращити свої навички і дізнатися про останні тенденції у світі технологій.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Контакти -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Контакти</h2>
+        <p class="text-center">Заповніть форму для зв'язку зі мною.</p>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Ім'я</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Електронна пошта</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Повідомлення</label>
+                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Відправити</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Підвал -->
+<footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p class="mb-0">&copy; 2024 ARION. Всі права захищені.</p>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
